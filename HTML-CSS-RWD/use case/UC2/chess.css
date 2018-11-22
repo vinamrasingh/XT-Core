@@ -1,0 +1,60 @@
+div{
+    border: 5px burlywood solid;
+}
+.container{
+position: absolute;
+top:100px;
+left:500px;
+width:800px;
+height:800px;
+
+}
+.divContainer{
+position: relative;
+margin: 0 auto;
+border: none;
+top: 150px;
+width:500px;
+height:500px;
+}
+.topLeft{
+top:0;
+left:0;
+position: absolute;
+height:200px;
+width:200px;
+
+}
+.topRight{
+top:0;
+right:0;
+height:200px;
+position: absolute;
+width:200px;
+
+}
+.bottomLeft{
+bottom:0;
+left:0;
+height:200px;
+width:200px;
+position: absolute;
+
+}
+.bottomRight{
+bottom:0;
+right:0;
+height:200px;
+position: absolute;
+width:200px;
+
+}
+.center{
+top: 150px;
+left: 150px;
+height:200px;
+border: black solid;
+position: absolute;
+width:200px;
+
+}

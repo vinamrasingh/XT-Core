@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout flexbox</title>
+    <style>
+        html{
+            font-family: sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        header{
+            background: purple;
+            height: 100px;
+        }
+        h1{
+            text-align:center;
+            color:white;
+            line-height:100px;
+            margin:0;
+        }
+        section{
+            display: flex;
+        }
+        article{
+            padding: 10px;
+            margin: 10px;
+            background: paleturquoise;
+            border: 1px;
+            border-radius: 20px;
+        }
+        .vertical{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Flexbox</h1>
+    </header>
+    <section>
+        <article>
+            <h2>First Article</h2>
+            <p>Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                to address the issue. You can also download this interesting infographic at the end.</p>
+        </article>
+        <article>
+            <h2>Second Article</h2>
+            <p>Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                to address the issue. You can also download this interesting infographic at the end.
+                Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                to address the issue. You can also download this interesting infographic at the end.</p>
+        </article></section>
+        <section class="vertical">
+        <article>
+            <h2>Third Article</h2>
+            <p>Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                to address the issue. You can also download this interesting infographic at the end.</p>
+        </article>
+        <article>
+                <h2>Fourth Article</h2>
+                <p>Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                    the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                    to address the issue. You can also download this interesting infographic at the end.</p>
+        </article>
+    </section>
+</body>
+
+</html>

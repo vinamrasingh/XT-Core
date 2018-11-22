@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nested flex</title>
+    <style>
+    html{
+            font-family: sans-serif;
+        }
+        body{
+            margin: 0;
+        }
+        
+       
+        div{
+            display: flex;
+            flex: 200px;
+
+        }
+        img{
+            position: relative;
+            width: 200px;
+            flex:200px;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+        }
+        article{
+            padding: 10px;
+            margin: 10px;
+            background: paleturquoise;
+            border: 1px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+                <p>Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                        the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                        to address the issue. You can also download this interesting infographic at the end.</p>
+            <div>
+                            <img src="images/balloon-sq1.jpg" class="img-container" alt="placeholder">
+                        
+                            <img src="images/balloon-sq2.jpg" class="img-container" alt="placeholder">
+                        
+                            <img src="images/balloon-sq3.jpg" class="img-container" alt="placeholder">
+                        
+                            <img src="images/balloon-sq4.jpg" class="img-container" alt="placeholder">
+                        
+                            <img src="images/balloon-sq5.jpg" class="img-container" alt="placeholder">
+                
+            </div>
+        </article>
+        <article>
+                <p>Will mental health in India ever overcome the taboo it finds itself surrounded with? Let’s dig deeper to understand
+                        the mental health plot — what factors attribute to increasing mental health problems and what is being done
+                        to address the issue. You can also download this interesting infographic at the end.</p>
+                        <div>
+                                <img src="images/balloon-sq1.jpg" class="img-container" alt="placeholder">
+                            
+                                <img src="images/balloon-sq2.jpg" class="img-container" alt="placeholder">
+                            
+                                <img src="images/balloon-sq3.jpg" class="img-container" alt="placeholder">
+                            
+                                <img src="images/balloon-sq4.jpg" class="img-container" alt="placeholder">
+                            
+                                <img src="images/balloon-sq5.jpg" class="img-container" alt="placeholder">
+                    
+                </div>
+        </article>
+
+    </section>
+</body>
+</html>

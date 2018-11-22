@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Position absolute</title>
+    <style>
+        div.background{
+            
+            border: 5px solid limegreen;
+        }
+        div.transbox{
+            margin: 0px;
+            background-color:aquamarine;
+            opacity: 0.5;
+           } 
+        .bigbox{
+            width:550px;
+            height: 150px;
+            position: absolute;
+            top:100px; left:200px;
+            padding:20px;
+            
+        }
+        .smallbox1{
+            width:200px;
+            height: 100px;
+            position: absolute;
+            top:270px; left:240px;
+            padding:20px;
+            
+        }
+        .smallbox2{
+            width:200px;
+            height: 100px;
+            position: absolute;
+            top:270px; left:520px;
+            padding:20px;
+            
+        }
+        /* .backgroundImage{
+            background-image: url(backgrnd.jpg) centre;
+        } */
+    </style>
+</head>
+<body>
+    <div class = "backgroundImage">
+        <img src="backgrnd.jpg">
+        <div class="background bigbox transbox">
+            <h2>Come see the fantastic Coit Tower!</h1>
+            <p>Did you know that Coit Tower is a monument to the firefighters of San Francisco? It rises 210 feet over telegraph hill and provides stunning views of the city.</p>
+        </div>
+
+        <div class="background smallbox1 transbox">
+            <p>Money for the tower was provided by Lillie Coit , an eccentric socialite who had deep connections to the city's firefighters.</p>
+        </div>
+
+        <div class="background smallbox2 transbox">
+            <p>If you want to visit, consider walking! Parking is limited at the tower, and it is often faster (and more scenic) to  just walk.</p>
+        </div>
+    </div>
+    
+        
+       
+        
+</body>
+</html>

@@ -14,10 +14,3 @@ Create site called "Sapient Tours" by adding nav bars, image list, footers which
 
 ### 4. UC4->Flex Calculator
 Create calculator using flexbox layout, which shows how to create complex layouts using flexbox properties.
-
-
-## Week2
-
-### 5. UC5-> Agoda-RWD
-
-### 6. UC6-> RWD Tours Website

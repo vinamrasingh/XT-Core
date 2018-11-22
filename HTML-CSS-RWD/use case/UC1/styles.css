@@ -1,34 +1,37 @@
-@charset "UTF-8";
-
-/*
-This is the CSS for the Hummus recipe. You can use is as u want to.  Nah, no need to gice credit to me.
-*/
-
-/*
-RESET
-*/
-html,
-body {
-  margin: 0;
-  padding: 0;
+body{
+    background-color: beige;
+    font:100% Georgia, "Times New Roman",Times,serif;
+}
+div{
+    background-color: azure;
+    margin: 0px 30px 0px 30px;
+    border: 5px  #cccccc solid;
+    padding :30px;
 }
 
-body {
-  background-color: hsla(172, 27%, 73%, 0.527);
-  font-size: 14px;
+#div2{
+    border-bottom: 0;
 }
-
-/*
-Container : Wrapper
-*/
-.container {
-  font-family: "Segoe UI", sans-serif;
-  width: 980px;
-  background-color: hsla(178, 21%, 70%, 0.192);
-  margin: 0px auto;
-  border: 5px solid hsla(178, 21%, 70%, 0.192);
+#div3{
+    
+    border-top: 0
+    
 }
-
-.container > * {
-  margin-left: 20px;
+#container{
+    background-color:burlywood;
+    margin:  0 auto;
+    
+    border: none;
+}
+p{
+    padding:10px 0px 0px 40px;
+}
+h1{
+    padding:20px 0px 0px 20px;
+}
+h2{
+    margin: auto;
+}
+ul{
+    padding: 0 auto;
 }

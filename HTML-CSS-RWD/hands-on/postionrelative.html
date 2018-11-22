@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Static Position</title>
+    <title>Position relative</title>
     <style>
         p{
             background: aqua;
@@ -17,13 +17,15 @@
             border:1px solid black;
         }
         .positioned{
-            position:static;
+            position:relative;
             background: yellow;
+            top: 50px;
+            left:50px;
         }
     </style>
 </head>
 <body>
-    <h1>Basic document flow</h1>
+    <h1>Relative Position</h1>
     <p>I am a basix block level element. My adjacent block level elements sir on new lines below me.</p>
     <p class="positioned">By default span 100% of the width of our parent element, and our are as tall as our child content. Our total width and height is our content +
         padding+ border width/height
